@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(14, 14, 75);
+    /* position: fixed; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.2rem;
+}
+
+.left {
+    font-size: 1.8rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0
+}
+
+.firstSection>div {
+    width: 40%;
+    /* background-color: red; */
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background: #5d5da9;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.leftSection .btn:hover {
+    padding: 12px;
+    background: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.rightSection img {
+    /* background-color: red; */
+    width: 80%;
+    margin: 40px 0;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.textGrey {
+    color: gray;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .box .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-text {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 90px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.progress-bar {
+    background-color: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    border-radius: 5px;
+    height: 10px;
+    width: 0%;
+}
+
+.progress-bar div span {
+    height: 40px;
+    width: 40px;
+    background-color: #222;
+    border-radius: 50%;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HTML {
+    background-color: aqua;
+    animation: HTML 5s linear forwards;
+}
+
+.CSS {
+    background-color: aqua;
+    animation: CSS 5s linear forwards;
+}
+
+.Bootstrap {
+    background-color: aqua;
+    animation: Bootstrap 5s linear forwards;
+}
+
+.Javascript {
+    background-color: aqua;
+    animation: Javascript 5s linear forwards;
+}
+
+.Github {
+    background-color: aqua;
+    animation: Github 5s linear forwards;
+}
+
+.HTML span {
+    border: 1px solid aqua;
+}
+
+.CSS span {
+    border: 1px solid aqua;
+}
+
+.Bootstrap span {
+    border: 1px solid aqua;
+}
+
+.Javascript span {
+    border: 1px solid aqua;
+}
+
+.Github span {
+    border: 1px solid aqua;
+}
+
+@keyframes HTML {
+    100% {
+        width: 86%;
+    }
+}
+
+@keyframes CSS {
+    100% {
+        width: 66%;
+    }
+}
+
+@keyframes Bootstrap {
+    100% {
+        width: 58%;
+    }
+}
+
+@keyframes Javascript {
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes Github {
+    100% {
+        width: 60%;
+    }
+}
+
+
+
+footer {
+    background-color: rgb(55, 50, 50);
+}
+
+.footer {
+    display: flex;
+    padding: 123px 122px;
+    justify-content: space-evenly;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+}
+
+/* Media query for smaller screens */
+/* @media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        background-color: rgb(14, 14, 75);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+} */
