@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(0, 0, 33);
+    background-color: #0f4e6d;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -14,8 +14,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: rgb(14, 14, 75);
-    /* position: fixed; */
+    background-color: #027aed;
 }
 
 nav ul {
@@ -41,7 +40,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(153, 153, 226);
+    color: #fff;
     font-size: 1.2rem;
 }
 
@@ -58,7 +57,6 @@ nav ul li a:hover {
 
 .firstSection>div {
     width: 40%;
-    /* background-color: red; */
 }
 
 .leftSection {
@@ -67,36 +65,49 @@ nav ul li a:hover {
 
 .leftSection .btn {
     padding: 12px;
-    background: #5d5da9;
+    background: #027aed ;
     color: white;
     border: 2px solid white;
     border-radius: 5px;
     font-size: 20px;
 }
 
+.leftSection .btn a{
+    text-decoration: none;
+    color: white;
+}
+
 .leftSection .btn:hover {
     padding: 12px;
-    background: white;
+    background: #027aed ;
     color: black;
     border: 2px solid white;
     border-radius: 5px;
     font-size: 30px;
 }
-
-.rightSection img {
-    /* background-color: red; */
-    width: 80%;
-    margin: 40px 0;
+.leftSection .btn a:hover {
+  color: black;
 }
 
+.rightSection img {
+    width: 80%;         
+    margin: 40px 0;
+    border-radius: 10%;
+}
+.rightSection1 .img2{  
+    padding: 10px;
+    width: 90%;
+    border-radius: 20px;
+    /* height: 100%; */
+}
 .purple {
-    color: blueviolet;
+    color: #0093ff;
 }
 
 .textGrey {
-    color: gray;
+    color: #0093ff;
 }
-
+/* 
 .secondSection {
     max-width: 80vw;
     margin: auto;
@@ -142,7 +153,7 @@ nav ul li a:hover {
     color: gray;
     width: 150px;
     font-size: 9px;
-}
+} */
 
 .container1 {
     width: 100%;
@@ -279,36 +290,10 @@ footer .footer-rights {
     text-align: center;
     color: gray;
 }
-
-/* Media query for smaller screens */
-/* @media (max-width: 600px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
-        background-color: rgb(0, 0, 33);
+footer  ul li   {
+    display: block;
+}
+footer  ul li a{
+        text-decoration: none;
         color: white;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 50px;
-        background-color: rgb(14, 14, 75);
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: center;
-    }
-
-    nav ul li {
-        list-style: none;
-        margin: 0 23px;
-    }
-
-} */
+}
